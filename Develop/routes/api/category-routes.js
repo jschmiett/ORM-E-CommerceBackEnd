@@ -5,15 +5,15 @@ const { Category, Product } = require('../../models');
 
 router.get('/', async (req, res) => {
   try {
-    const apiCategories = await Category.findAll({
+    // const apiCategories = await Category.findAll({
 
-    })
+    // });
   }
   // find all categories
   // be sure to include its associated Products
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
 });
